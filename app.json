@@ -13,12 +13,12 @@
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": "3704772", 
+            "value": "", 
             "required": false
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "b8e50a035abb851c0dd424e14cac4c06",
+            "value": "",
             "required": false
         },
         "SESSION": {
@@ -42,6 +42,16 @@
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
+            "value": "",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Log Group ID. send /id in your group after adding Rose bot",
+            "value": "",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "Get Bot token from Bot Father",
             "value": "",
             "required": false
         }
